@@ -22,4 +22,5 @@ Chrome was requested but was not used for a verified capture, so it is intention
 | Browser console | Local live-menu verification reported no warnings or errors. |
 | Vercel dashboard evidence | 2FA blocked the dashboard; stale/blank capture was removed rather than presented as proof. |
 | Vercel production deploy | Completed through the authenticated Vercel CLI. Deployment `dpl_JCRm7XdxpmoMxsrQh1CoAKse7fjN` is `READY` and aliased to `https://kopi-co.vercel.app`; the deployed bundle contains the Supabase client. |
+| Deployment source | Vercel is connected to `github.com/ecryptoguru/kopi-co`; pushes to `main` are the production deployment path. |
 | Historical Codex-only frames | The desktop bridge could not access Codex, so missing historical states are documented instead of fabricated. |
