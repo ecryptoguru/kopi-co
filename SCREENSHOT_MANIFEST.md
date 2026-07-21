@@ -21,5 +21,5 @@ Only the required, privacy-safe captures are retained in `outputs/`. Old duplica
 
 - Vercel target region: Singapore (`sin1`).
 - Supabase project: `kopi-co-singapore`, Singapore (`ap-southeast-1`).
-- Vercel production: `https://kopi-co.vercel.app`, deployment `dpl_JCRm7XdxpmoMxsrQh1CoAKse7fjN`, `READY`.
+- Vercel production: `https://kopi-co.vercel.app`, GitHub-triggered `main` deployment from commit `c7f2481`, `READY`.
 - Security check after the RLS migration: no Supabase security-advisor findings.
