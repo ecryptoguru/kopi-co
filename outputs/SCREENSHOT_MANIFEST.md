@@ -10,6 +10,7 @@ Captured from the local app at `http://127.0.0.1:5173/` plus the deployed releas
 
 ## Captured
 
+- `S0.1.png` — cropped Codex desktop capture of the Kopi & Co. playbook thread, chat, environment panel, and local dev process
 - `S2.1c.png` — home preview
 - `S2.2.png` — menu
 - `S2.3.png` — about
@@ -34,4 +35,4 @@ Captured from the local app at `http://127.0.0.1:5173/` plus the deployed releas
 
 ## Remaining desktop-only frames
 
-`S0.1`, `S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2b`, `S5.3a`, and `S6.1a` are Codex desktop/MCP-specific frames and are not fabricated. The remaining evidence is captured or verified in the browser sessions listed above.
+`S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2b`, `S5.3a`, and `S6.1a` are historical Codex desktop/MCP states that cannot be recreated from the current thread. The Codex Computer Use bridge rejects the Codex app; these frames remain explicitly unprovided rather than fabricated.
