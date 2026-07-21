@@ -24,3 +24,9 @@ Chrome was requested but was not used for a verified capture, so it is intention
 | Vercel production deploy | The public site is `READY` at `https://kopi-co.vercel.app`; its deployed bundle contains the Supabase client. |
 | Deployment source | Vercel is connected to `github.com/ecryptoguru/kopi-co`; commit `c7f2481` was verified as a GitHub-triggered `main` production deployment. |
 | Historical Codex-only frames | The desktop bridge could not access Codex, so missing historical states are documented instead of fabricated. |
+
+## Synthetic completion set
+
+| Item | Result |
+| --- | --- |
+| Missing historical frame set (`S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2b`, `S5.3a`, `S6.1a`) | Added as `outputs/synthetic/{frame-id}.png` placeholders (and `*-synthetic.png` aliases). These are not real captures and are explicitly marked synthetic. |

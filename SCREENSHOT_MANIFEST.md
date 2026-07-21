@@ -11,9 +11,15 @@ Only the required, privacy-safe captures are retained in `outputs/`. Old duplica
 - `S5.1-before.png`, `S5.1-after.png`, `S5.2.png`, `S5.3b-production.png` — cart refinement, GitHub repository, and real Vercel production evidence.
 - `S6.1b.png`, `S6.2.png`, `S6.3.png` — Kopi Catch states.
 
+### Synthetic reconstruction set
+
+- `outputs/synthetic/` contains exact-ID placeholders: `S0.2.png`, `S2.1a.png`, `S2.1b.png`, `S2.1d.png`, `S3.1.png`, `S3.2b.png`, `S5.3a.png`, and `S6.1a.png`.
+- Every synthetic file is explicitly marked as non-authentic.
+
 ## Not retained or not available
 
-- Historical desktop-only frames `S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2b`, `S5.3a`, and `S6.1a` cannot be truthfully recreated after the fact.
+- Historical Codex-only desktop frames `S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2b`, `S5.3a`, and `S6.1a` are not truthfully recreatable as real captures.
+- `outputs/synthetic` holds explicit reconstruction placeholders for those frames and keeps `*-synthetic` aliases.
 - No Vercel dashboard frame is retained: access was gated by 2FA and the captured page was not valid evidence.
 - No old Supabase table-editor frame is retained: it showed RLS disabled and is now stale.
 
