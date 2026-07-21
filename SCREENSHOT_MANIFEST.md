@@ -8,7 +8,7 @@ Only the required, privacy-safe captures are retained in `outputs/`. Old duplica
 - `S2.1c.png`, `S2.2.png`, `S2.3.png`, `S2.4.png` — home, menu, about, and contact validation.
 - `S3.2c-live-supabase-menu.png` — current menu rendered from the Singapore Supabase project.
 - `S3.3.png`, `S3.4.png`, `S3.5-form.png`, `S3.5-confirmed.png`, `S3.6.png` — member-flow UI captures.
-- `S5.1-before.png`, `S5.1-after.png`, `S5.2.png` — cart refinement and GitHub repository evidence.
+- `S5.1-before.png`, `S5.1-after.png`, `S5.2.png`, `S5.3b-production.png` — cart refinement, GitHub repository, and real Vercel production evidence.
 - `S6.1b.png`, `S6.2.png`, `S6.3.png` — Kopi Catch states.
 
 ## Not retained or not available
@@ -21,5 +21,5 @@ Only the required, privacy-safe captures are retained in `outputs/`. Old duplica
 
 - Vercel target region: Singapore (`sin1`).
 - Supabase project: `kopi-co-singapore`, Singapore (`ap-southeast-1`).
-- Public URL: `https://kopi-co.vercel.app` is reachable, but it still serves the previous bundle. The secure `main` revision needs a Vercel-authenticated production deploy.
+- Vercel production: `https://kopi-co.vercel.app`, deployment `dpl_JCRm7XdxpmoMxsrQh1CoAKse7fjN`, `READY`.
 - Security check after the RLS migration: no Supabase security-advisor findings.
