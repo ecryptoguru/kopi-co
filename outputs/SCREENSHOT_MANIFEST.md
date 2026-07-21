@@ -1,6 +1,6 @@
 # Kopi & Co. screenshot manifest
 
-Captured from the local app at `http://127.0.0.1:5173/` using the Codex in-app browser at its native 1280×720 viewport. Files are stored beside this manifest and use the playbook step IDs.
+Captured from the local app at `http://127.0.0.1:5173/` plus the deployed release using Brave Computer Use and the existing Codex browser captures. Files are stored beside this manifest.
 
 ## External release evidence
 
@@ -24,7 +24,13 @@ Captured from the local app at `http://127.0.0.1:5173/` using the Codex in-app b
 - `S6.1b.png` — signed-in running game
 - `S6.2.png` — game over and personal best
 - `S6.3.png` — game interaction viewport capture (the transient score popup was not present at capture time)
+- `brave-home.png`, `brave-menu.png`, `brave-about.png`, `brave-contact.png` — deployed public pages
+- `brave-contact-invalid.png` — deployed contact-form validation state
+- `brave-github.png` — GitHub repository page
+- `brave-supabase-singapore.png` — Supabase Table Editor for `kopi-co-singapore`
+- `brave-supabase-menu-table.png` — Singapore project `menu_items` table with 3 records
+- `brave-vercel-2fa-gate.png` — Vercel project access gate encountered in Brave (2FA setup prompt)
 
-## Not captured in this artifact
+## Remaining desktop-only frames
 
-`S0.1`, `S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2a`, `S3.2b`, `S3.4` provider checkout proof, `S5.2`, `S5.3a`, `S5.3b`, `S6.1a`, and `S6.4` require Codex desktop chrome, Supabase/GitHub panels, or a browser screenshot session. The connected browser bridge timed out during this run, so these evidence images are intentionally not fabricated; all available local captures remain above.
+`S0.1`, `S0.2`, `S2.1a`, `S2.1b`, `S2.1d`, `S3.1`, `S3.2a`, `S3.2b`, `S5.3a`, and `S6.1a` are Codex desktop/MCP-specific frames and are not fabricated. `S5.2`, `S5.3b`, `S6.4`, and the provider screenshots listed above were captured or verified in browser sessions.
